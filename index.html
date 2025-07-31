@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GamerXiseTEST - Fitness for Gamers</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background: #f7f7f7;
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #0078d7;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  .btn:hover {
+    background: #005eb8;
+  }
+  .btn-outline {
+    background: transparent;
+    border: 2px solid #0078d7;
+    color: #0078d7;
+  }
+  .btn-outline:hover {
+    background: #0078d7;
+    color: #fff;
+  }
+  .section {
+    padding: 80px 0;
+  }
+  .section-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1d1d1d;
+    margin-bottom: 20px;
+  }
+  .section-subtitle {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  .gradient-bg {
+    background: linear-gradient(90deg, #00b4d8 0%, #0083b0 100%);
+  }
+  .glassmorphism {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .neumorphism {
+    box-shadow: 7px 7px 14px rgba(0, 0, 0, 0.1), -7px -7px 14px rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .parallax {
+    background-attachment: fixed;
+  }
+  @media (max-width: 768px) {
+    .section {
+      padding: 60px 0;
+    }
+    .section-title {
+      font-size: 28px;
+    }
+    .section-subtitle {
+      font-size: 16px;
+    }
+  }
+</style>
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="container">
+      <a href="#" class="logo">GamerXiseTEST</a>
+      <ul class="nav-menu">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#blog">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero section" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="section-title">Fitness for Gamers</h1>
+          <p class="section-subtitle">Transform your gaming sessions into full-body workouts with GamerXiseTEST.</p>
+          <a href="#contact" class="btn">Get Started</a>
+        </div>
+      </div>
+    </section>
+    <section class="value-proposition section" id="value">
+      <div class="container">
+        <div class="section-title">Why Choose Us</div>
+        <div class="section-subtitle">3 Key Benefits of GamerXiseTEST</div>
+        <div class="benefits-grid">
+          <div class="benefit-item">
+            <i class="icon">?</i>
+            <h3>Health & Fitness</h3>
+            <p>Improve your health and fitness while playing your favorite games.</p>
+          </div>
+          <div class="benefit-item">
+            <i class="icon">?</i>
+            <h3>Gaming Skills</h3>
+            <p>Enhance your reaction time and gaming skills with our workouts.</p>
+          </div>
+          <div class="benefit-item">
+            <i class="icon">?????</i>
+            <h3>No Equipment Needed</h3>
+            <p>Full-body workouts using only your Xbox or PlayStation controller.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-title">Our Services</div>
+        <div class="section-subtitle">What We Offer</div>
+        <div class="services-grid">
+          <div class="service-item">
+            <i class="icon">?</i>
+            <h3>GamerXise Monthly</h3>
+            <p>Monthly subscription with new workouts for $27/month.</p>
+            <a href="#contact" class="btn btn-outline">Learn More</a>
+          </div>
+          <div class="service-item">
+            <i class="icon">????</i>
+            <h3>GamerXise Client</h3>
+            <p>Personal trainer for $100/month and $75 per session.</p>
+            <a href="#contact" class="btn btn-outline">Learn More</a>
+          </div>
+          <div class="service-item">
+            <i class="icon">?</i>
+            <h3>GamerXise Programming</h3>
+            <p>Semi-personalized program for $100 assessment/programming fee and $60/month.</p>
+            <a href="#contact" class="btn btn-outline">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="social-proof section" id="social-proof">
+      <div class="container">
+        <div class="section-title">Social Proof</div>
+        <div class="section-subtitle">What Our Clients Say</div>
+        <div class="testimonials-grid">
+          <div class="testimonial-item">
+            <img src="client1.jpg" alt="Client 1" class="client-photo">
+            <p>"GamerXiseTEST has helped me lose weight and improve my gaming skills. I love it!"</p>
+            <h4>- Client 1</h4>
+          </div>
+          <div class="testimonial-item">
+            <img src="client2.jpg" alt="Client 2" class="client-photo">
+            <p>"I've never been a fan of traditional workouts, but GamerXiseTEST changed that."</p>
+            <h4>- Client 2</h4>
+          </div>
+          <div class="testimonial-item">
+            <img src="client3.jpg" alt="Client 3" class="client-photo">
+            <p>"GamerXiseTEST has improved my focus and mood while gaming."</p>
+            <h4>- Client 3</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pricing section" id="pricing">
+      <div class="container">
+        <div class="section-title">Pricing & Packages</div>
+        <div class="section-subtitle">Choose the Plan That's Right for You</div>
+        <div class="pricing-grid">
+          <div class="pricing-item">
+            <h3>GamerXise Monthly</h3>
+            <p>$27/month</p>
+            <ul>
+              <li>New workouts every month</li>
+              <li>Guided workouts and resources</li>
+              <li>Educational resources</li>
+            </ul>
+            <a href="#contact" class="btn">Choose Plan</a>
+          </div>
+          <div class="pricing-item">
+            <h3>GamerXise Client</h3>
+            <p>$100/month + $75 per session</p>
+            <ul>
+              <li>Personal trainer</li>
+              <li>Tailored program</li>
+              <li>Adjustments as needed</li>
+            </ul>
+            <a href="#contact" class="btn">Choose Plan</a>
+          </div>
+          <div class="pricing-item">
+            <h3>GamerXise Programming</h3>
+            <p>$100 assessment/programming fee + $60/month</p>
+            <ul>
+              <li>Semi-personalized program</li>
+              <li>Monthly updates</li>
+              <li>Unlimited adjustments</li>
+            </ul>
+            <a href="#contact" class="btn">Choose Plan</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-title">About Us</div>
+        <div class="section-subtitle">Our Company Story</div>
+        <div class="about-content">
+          <p>Founded by gamers who understood the health challenges of long gaming sessions, GamerXiseTEST revolutionizes fitness by making it compatible with gaming. Our mission is to prove that you don't have to choose between your passion for gaming and your health. We believe in innovative solutions that fit into your lifestyle, not the other way around. Our values include inclusivity in the gaming community, sustainable health practices, and making fitness accessible to everyone.</p>
+        </div>
+      </div>
+    </section>
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-title">Contact Us</div>
+        <div class="section-subtitle">Get in Touch</div>
+        <form id="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <section class="blog-preview section" id="blog">
+      <div class="container">
+        <div class="section-title">Blog Preview</div>
+        <div class="section-subtitle">Latest Posts</div>
+        <div class="blog-grid">
+          <div class="blog-item">
+            <img src="blog1.jpg" alt="Blog Post 1">
+            <h3>Why Gaming and Exercise are Better Together</h3>
+            <p>Discover the benefits of combining gaming and exercise...</p>
+            <a href="#contact" class="btn btn-outline">Read More</a>
+          </div>
+          <div class="blog-item">
+            <img src="blog2.jpg" alt="Blog Post 2">
+            <h3>Health Benefits of Gaming and Exercise</h3>
+            <p>Learn how gaming and exercise can improve your health...</p>
+            <a href="#contact" class="btn btn-outline">Read More</a>
+          </div>
+          <div class="blog-item">
+            <img src="blog3.jpg" alt="Blog Post 3">
+            <h3>The Best Fitness Games of 2025</h3>
+            <p>Find out which games are leading the way in fitness...</p>
+            <a href="#contact" class="btn btn-outline">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer section">
+      <div class="container">
+        <div class="footer-content">
+          <nav>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="privacy-policy.html">Privacy Policy</a></li>
+              <li><a href="terms-of-use.html">Terms of Use</a></li>
+            </ul>
+          </nav>
+          <div class="social-links">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+          </div>
+          <div class="newsletter">
+            <input type="email" placeholder="Enter your email">
+            <button type="submit" class="btn btn-outline">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const contactForm = document.getElementById('contact-form');
+      contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('Thank you for contacting us! We will get back to you soon.');
+      });
+    });
+  </script>
+</body>
+</html>
